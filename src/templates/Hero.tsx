@@ -9,7 +9,7 @@ import InstagramLogo from '../components/InstagramLogo.tsx';
 import { IPlayerHero } from '../hero/IPlayerHero.tsx'
 
 const Hero = () => (
-  <Background color="bg-primary-100">
+  <Background color="bg-primary-100 max-h-screen">
     <Section yPadding="py-0">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
@@ -40,12 +40,12 @@ const Hero = () => (
         }
       />
     </Section>
-    <Section className="max-h-1/2">
-        <IPlayerHero
-          src="https://bandcamp.com/EmbeddedPlayer/album=3456052307/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-          href="https://olhar.bandcamp.com/album/smoke-2"
-         />
-    </Section>
+    <div className="max-h-screen">
+      <IPlayerHero
+        src="https://bandcamp.com/EmbeddedPlayer/album=3456052307/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+        href="https://olhar.bandcamp.com/album/smoke-2"
+       />
+    </div>
   </Background>
 );
 

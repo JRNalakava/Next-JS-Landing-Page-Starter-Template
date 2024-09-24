@@ -3,14 +3,14 @@ import { AppConfig } from '../utils/AppConfig';
 import { Banner } from './Banner';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
-import { Sponsors } from './Sponsors';
+import { AboutUs } from './AboutUs';
 import { VerticalFeatures } from './VerticalFeatures';
 
 const Base = () => (
   <div className="text-golden-100 antialiased">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Hero />
-    <Sponsors />
+    <AboutUs />
     <VerticalFeatures />
     <Banner />
     <Footer />
