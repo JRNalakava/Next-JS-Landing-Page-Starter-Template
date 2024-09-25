@@ -1,6 +1,8 @@
 import className from 'classnames';
 import { useRouter } from 'next/router';
 
+import RecommendationsCarousel from '../components/RecommendationsCarousel';
+
 type IVerticalFeatureRowProps = {
   title: string;
   description: string;
@@ -9,7 +11,7 @@ type IVerticalFeatureRowProps = {
   reverse?: boolean;
 };
 
-const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
+const VerticalFeatureRowRecommendations = (props: IVerticalFeatureRowProps) => {
   const verticalFeatureClass = className(
     'mt-20',
     'flex',
@@ -29,6 +31,9 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
           {props.title}
         </h3>
         <div className="mt-6 text-xl leading-9">{props.description}</div>
+        <div>
+          <RecommendationsCarousel />
+        </div>
       </div>
 
       <div className="w-full p-6 sm:w-1/2">
@@ -38,4 +43,4 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
   );
 };
 
-export { VerticalFeatureRow };
+export { VerticalFeatureRowRecommendations };

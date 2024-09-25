@@ -7,11 +7,11 @@ import {
 
 type IPlayerHeroProps = {
   src: string;
-  href: string;
+  href?: string;
   title: string;
 };
 
-const IPlayerHero = (props: IPlayerHeroProps) => (
+const IPlayer = (props: IPlayerHeroProps) => (
   <ResponsiveIframeViewer
     title={props.title}
     size={ViewportSize.miniMobile}
@@ -19,8 +19,8 @@ const IPlayerHero = (props: IPlayerHeroProps) => (
     enabledControls={[]}
     src={props.src}
   >
-    <a href={props.href}>Smoke by Olhar</a>
+    <a href={props.href}></a>
   </ResponsiveIframeViewer>
 );
 
-export { IPlayerHero };
+export { IPlayer };
