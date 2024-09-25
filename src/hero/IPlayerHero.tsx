@@ -6,6 +6,7 @@ import { ResponsiveIframeViewer, ViewportSize }
 type IPlayerHeroProps = {
   src: string;
   href: string;
+  title:? string;
 };
 
 const IPlayerHero = (props: IPlayerHeroProps) => (
