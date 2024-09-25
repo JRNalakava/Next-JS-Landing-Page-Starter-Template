@@ -3,7 +3,7 @@ import { Section } from '../layout/Section';
 import { Background } from '../background/Background'
 
 const VerticalFeatures = () => (
-  <Background color="bg-primary-100">>
+  <Background color="bg-primary-100">
     <Section
       title="Latest Release"
       description="Here you can find our latest release."
