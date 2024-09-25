@@ -4,8 +4,8 @@ import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
-import InstagramLogo from '../components/InstagramLogo.tsx';
-import { IPlayerHero } from '../hero/IPlayerHero.tsx'
+import InstagramLogo from '../components/InstagramLogo';
+import { IPlayerHero } from '../hero/IPlayerHero'
 
 const Hero = () => (
   <Background color="bg-primary-100 max-h-screen">
