@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Background } from '../background/Background';
 import { Section } from '@/layout/Section';
 import  Carousel  from '../components/Carousel.tsx'
-const AboutUs = () => (
+const Pictures = () => (
     <Background color="bg-primary-100">
   <Section
     color="bg-primary-100"
@@ -17,4 +17,4 @@ const AboutUs = () => (
   </Background>
 );
 
-export { AboutUs };
+export { Pictures };

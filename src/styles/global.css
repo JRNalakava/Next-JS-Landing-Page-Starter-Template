@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.filter-golden {
+  filter: invert(91%) sepia(14%) saturate(810%) hue-rotate(334deg) brightness(99%) contrast(89%);
+}
