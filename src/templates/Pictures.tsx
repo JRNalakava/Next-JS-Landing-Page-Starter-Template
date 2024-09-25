@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import { Background } from '../background/Background';
 import { Section } from '@/layout/Section';
 import  Carousel  from '../components/Carousel.tsx'
