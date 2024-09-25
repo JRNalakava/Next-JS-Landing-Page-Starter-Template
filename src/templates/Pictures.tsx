@@ -4,7 +4,6 @@ import  Carousel  from '../components/Carousel'
 const Pictures = () => (
     <Background color="bg-primary-100">
   <Section
-    color="bg-primary-100"
     title="About us"
     description="Music is a gift"
   >
