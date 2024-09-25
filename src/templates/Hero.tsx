@@ -34,6 +34,7 @@ const Hero = () => (
     </Section>
     <div className="max-h-screen">
       <IPlayerHero
+        title="Olhar"
         src="https://bandcamp.com/EmbeddedPlayer/album=3456052307/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
         href="https://olhar.bandcamp.com/album/smoke-2"
        />
