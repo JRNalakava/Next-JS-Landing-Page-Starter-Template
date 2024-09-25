@@ -11,6 +11,7 @@ type IPlayerHeroProps = {
 
 const IPlayerHero = (props: IPlayerHeroProps) => (
   <ResponsiveIframeViewer
+    title={props.title}
     size={ViewportSize.miniMobile}
     showControls={false}
     enabledControls={[]}
