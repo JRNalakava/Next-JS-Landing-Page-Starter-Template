@@ -31,7 +31,6 @@ const Hero = () => (
             <span className="text-golden-100">Welcome to where the eye meets
               the heart
             </span>
-        }
       />
     </Section>
     <div className="max-h-screen">
