@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { Background } from '../background/Background';
-import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
@@ -29,13 +28,9 @@ const Hero = () => (
     </Section>
 
     <Section yPadding="pt-0">
-      <HeroOneButton
-        title={
-          <>
             <span className="text-golden-100">Welcome to where the eye meets
               the heart
             </span>
-          </>
         }
       />
     </Section>
