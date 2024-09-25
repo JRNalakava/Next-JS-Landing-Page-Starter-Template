@@ -10,12 +10,12 @@ const Logo = (props: ILogoProps) => {
 
   return (
     <span className={`inline-flex items-center text-gray-900 ${fontStyle}`}>
-
       <img
         src="assets/brand/logo.png"
         width={size}
         height={1000}
-        alt="Olhar's brand"/>
+        alt="Olhar's brand"
+      />
     </span>
   );
 };

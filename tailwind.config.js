@@ -1,6 +1,8 @@
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx}',
-    'node_modules/react-responsive-iframe-viewer/**/*.{js,ts,jsx,tsx,html}'],
+  content: [
+    './src/**/*.{js,ts,jsx,tsx}',
+    'node_modules/react-responsive-iframe-viewer/**/*.{js,ts,jsx,tsx,html}',
+  ],
   theme: {
     fontSize: {
       xs: '0.75rem',
@@ -17,10 +19,10 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          100: '#1F0015', //purple
+          100: '#1F0015', // purple
         },
         golden: {
-          100: '#EFD6AE', //golden
+          100: '#EFD6AE', // golden
         },
       },
       lineHeight: {

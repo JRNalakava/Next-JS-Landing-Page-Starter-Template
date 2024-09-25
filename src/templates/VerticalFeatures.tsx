@@ -1,6 +1,6 @@
+import { Background } from '../background/Background';
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
-import { Background } from '../background/Background'
 
 const VerticalFeatures = () => (
   <Background color="bg-primary-100">
@@ -10,8 +10,7 @@ const VerticalFeatures = () => (
     >
       <VerticalFeatureRow
         title="Our History"
-        description={
-        `
+        description={`
           Olhar, an Austin-based Shoegaze and Noise Rock project,
            fuses the sounds of My Bloody Valentine, Slowdive, Spaceman 3,
             and Brazilian Psychedelic Rock. The band, formed in Fort Worth
@@ -22,7 +21,6 @@ const VerticalFeatures = () => (
               from both Brazilian music legends and personal experiences
                with psychosis and recovery.
              `}
-
         image="/assets/images/headphones.svg"
         color="bg-primary-100"
         imageAlt="Person listening to headphones"

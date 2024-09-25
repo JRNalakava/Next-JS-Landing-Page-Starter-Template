@@ -9,7 +9,7 @@ type ISectionProps = {
 
 const Section = (props: ISectionProps) => (
   <div
-  //This says max-w-full so that navbar is stretched across website
+    // This says max-w-full so that navbar is stretched across website
     className={`mx-auto max-w-full px-0 ${
       props.yPadding ? props.yPadding : 'py-16'
     }`}
@@ -20,7 +20,7 @@ const Section = (props: ISectionProps) => (
           <h2 className="text-4xl font-bold text-golden-100">{props.title}</h2>
         )}
         {props.description && (
-          <div className="mt-4 text-x1 md:px-20">{props.description}</div>
+          <div className="text-x1 mt-4 md:px-20">{props.description}</div>
         )}
       </div>
     )}
