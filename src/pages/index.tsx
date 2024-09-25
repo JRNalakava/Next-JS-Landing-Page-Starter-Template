@@ -1,7 +1,7 @@
 import { Base } from '../templates/Base';
 import React, { useEffect, useState } from "react";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper } from 'swiper/react';
 
 // const Index = () => <Base />;
 
