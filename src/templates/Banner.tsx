@@ -7,7 +7,7 @@ const Banner = () => (
     <CTABanner
       title="Contact us for more information."
       subtitle="We would love to hear from you"
-      button={""
+      button={''
       }
     />
   </Section>
