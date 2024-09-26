@@ -1,8 +1,7 @@
-import Link from 'next/link';
-
-import { Button } from '../button/Button';
+import React from 'react';
 import { CTABanner } from '../cta/CTABanner';
 import { Section } from '../layout/Section';
+import ContactPopup from '@/components/ContactPopup';
 
 const Banner = () => (
   <Section>
@@ -10,9 +9,7 @@ const Banner = () => (
       title="Contact us for more information."
       subtitle="We would love to hear from you"
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
-          <Button>Contact us</Button>
-        </Link>
+          <ContactPopup />
       }
     />
   </Section>
