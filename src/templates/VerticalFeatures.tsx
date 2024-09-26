@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { VerticalFeatureRowRecommendations } from '@/feature/VerticalFeatureRowRecommendations';
 
 import { Background } from '../background/Background';

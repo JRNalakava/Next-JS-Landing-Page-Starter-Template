@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import React from 'react';
 
 import { Background } from '../background/Background';
 import InstagramLogo from '../components/InstagramLogo';

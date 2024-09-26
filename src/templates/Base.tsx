@@ -1,4 +1,6 @@
 import React from 'react';
+
+import { Background } from '../background/Background';
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
 import { Banner } from './Banner';
@@ -6,7 +8,6 @@ import { Footer } from './Footer';
 import { Hero } from './Hero';
 import { Pictures } from './Pictures';
 import { VerticalFeatures } from './VerticalFeatures';
-import { Background } from '../background/Background';
 
 const Base = () => (
   <div className="text-golden-100 antialiased">
