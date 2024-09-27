@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button } from '@nextui-org/react';
-import { ContactForm } from './ContactForm';
+//import { ContactForm } from './ContactForm';
 
 const ContactModal: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,7 @@ const ContactModal: React.FC = () => {
         <ModalContent>
           <ModalHeader>Contact Us</ModalHeader>
           <ModalBody>
-            {<ContactForm />}
+            <div></div>
           </ModalBody>
           <ModalFooter>
             <Button color="primary" onClick={handleClose}>
