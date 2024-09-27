@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { CTABanner } from '../cta/CTABanner';
 import { Section } from '../layout/Section';
 const Banner = () => (
