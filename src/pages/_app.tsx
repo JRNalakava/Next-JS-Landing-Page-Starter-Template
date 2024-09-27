@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/global.css';
-import { NextUIProvider } from "@nextui-org/react";
+import { NextUIProvider } from '@nextui-org/react';
 
 import type { AppProps } from 'next/app';
 
