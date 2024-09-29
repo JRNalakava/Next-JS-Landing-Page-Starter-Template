@@ -44,7 +44,7 @@ const VerticalFeatures = () => (
         reverse
       />
       <VerticalFeatureRowRecommendations
-        title="Our Recomendations"
+        title="Our Recommendations"
         description={`
           Austin is a city known for its music scene, and we have several friends that perform and record
           constantly. Here are some of our recommendations:
