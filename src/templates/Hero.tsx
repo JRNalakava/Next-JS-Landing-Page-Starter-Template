@@ -31,7 +31,7 @@ const Hero = () => (
     </Section>
 
     <Section yPadding="pt-0">
-      <span className="text-golden-100 center">
+      <span className="center text-golden-100">
         Welcome to where the eye meets the heart
       </span>
     </Section>

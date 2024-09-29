@@ -1,18 +1,17 @@
-'use client'
+'use client';
 
-import React from 'react'
-import { FormEvent, useState } from 'react'
-import Confetti from 'react-confetti'
-
+import type { FormEvent } from 'react';
+import React, { useState } from 'react';
+import Confetti from 'react-confetti';
 
 export const ContactForm = () => {
-  const [isSubmitted, setSubmitted] = useState(false)
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
+  const [isSubmitted, setSubmitted] = useState(false);
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   const onSubmit = async (e: FormEvent) => {
-    e.preventDefault()
+    e.preventDefault();
 
     try {
       const res = await fetch('/api/contact', {
@@ -25,20 +24,20 @@ export const ContactForm = () => {
         headers: {
           'content-type': 'application/json',
         },
-      })
+      });
       if (res.status === 200) {
-        setSubmitted(true)
+        setSubmitted(true);
       }
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (err: any) {
-      console.error('Err', err)
+      console.error('Err', err);
     }
-  }
+  };
 
   return isSubmitted ? (
     <div>
       <h1
-        className="text-center font-semibold text-3xl
+        className="text-center text-3xl font-semibold
       "
       >
         Thank you for your message!
@@ -52,7 +51,7 @@ export const ContactForm = () => {
           <span className="label-text">Full Name</span>
         </label>
         <input
-          className="input w-full input-bordered input-primary"
+          className="input input-bordered input-primary w-full"
           value={name}
           onChange={(e) => setName(e.target.value)}
           type="text"
@@ -64,7 +63,7 @@ export const ContactForm = () => {
           <span className="label-text">Email</span>
         </label>
         <input
-          className="input w-full input-bordered input-primary"
+          className="input input-bordered input-primary w-full"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           type="email"
@@ -76,7 +75,7 @@ export const ContactForm = () => {
           <span className="label-text">Message</span>
         </label>
         <textarea
-          className="textarea w-full textarea-primary"
+          className="textarea textarea-primary w-full"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
@@ -85,5 +84,5 @@ export const ContactForm = () => {
         Submit
       </button>
     </form>
-  )
-}
+  );
+};
