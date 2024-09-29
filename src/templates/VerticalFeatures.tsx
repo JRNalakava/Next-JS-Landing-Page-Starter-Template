@@ -19,11 +19,7 @@ const VerticalFeatures = () => (
            fuses the sounds of My Bloody Valentine, Slowdive, Spaceman 3,
             and Brazilian Psychedelic Rock. The band, formed in Fort Worth
             in early 2024, revolves around the textural music and mixed
-            Portuguese-English lyrics of João Rangel. Their debut EP,
-             "Smoke", delves into Rangel's early adulthood struggles
-              with mental health and immigration, drawing inspiration
-              from both Brazilian music legends and personal experiences
-               with psychosis and recovery.
+            Portuguese-English lyrics of João Rangel. 
              `}
         image="/assets/images/headphones.svg"
         imageAlt="Person listening to headphones"
