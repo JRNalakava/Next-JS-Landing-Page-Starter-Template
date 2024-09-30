@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import React from 'react';
 
+import ContactModal from '@/components/ContactModal';
+
 import { Background } from '../background/Background';
 import { CenteredFooter } from '../footer/CenteredFooter';
 import { Section } from '../layout/Section';
 import { Logo } from './Logo';
-import ContactModal from '@/components/ContactModal';
 
 const Footer = () => (
   <Background color="bg-gray-100">
@@ -68,9 +69,9 @@ const Footer = () => (
           <Link href="/">Releases</Link>
         </li>
         <li>
-        <button className="btn-primary">
-          <ContactModal />
-        </button>
+          <button className="btn-primary">
+            <ContactModal />
+          </button>
         </li>
       </CenteredFooter>
     </Section>

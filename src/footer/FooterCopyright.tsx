@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
