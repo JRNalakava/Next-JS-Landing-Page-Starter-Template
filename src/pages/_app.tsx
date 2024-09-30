@@ -6,7 +6,7 @@ import React from 'react';
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
   <NextUIProvider>
-    <Component {...pageProps} />
+    <Component className="dark" {...pageProps} />
   </NextUIProvider>
 );
 

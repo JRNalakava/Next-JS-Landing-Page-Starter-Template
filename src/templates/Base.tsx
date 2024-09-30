@@ -10,9 +10,9 @@ import { Pictures } from './Pictures';
 import { VerticalFeatures } from './VerticalFeatures';
 
 const Base = () => (
-  <div className="text-golden-100 antialiased">
+  <div className="text-golden-100 antialiased margin-mobile">
     <Meta title={AppConfig.title} description={AppConfig.description} />
-    <Background color="bg-primary-100">
+    <Background color="bg-primary-100 margin-mobile" >
       <Hero />
       <Pictures />
       <VerticalFeatures />

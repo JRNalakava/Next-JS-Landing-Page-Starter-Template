@@ -10,7 +10,7 @@ const Banner = () => (
       title="Contact us for more information."
       subtitle="We would love to hear from you"
       button={
-        <button className="btn btn-primary">
+        <button className="btn-golden">
           <ContactModal />
         </button>
       }

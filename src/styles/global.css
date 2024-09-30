@@ -7,6 +7,16 @@
 .filter-golden {
   filter: invert(91%) sepia(14%) saturate(810%) hue-rotate(334deg) brightness(99%) contrast(89%);
 }
+.btn-golden{
+  background-color: #EFD6AE;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: auto;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
 .center {
   display: flex;
   justify-content: center;
@@ -99,4 +109,9 @@
 
 .arrow--disabled {
   fill: rgba(255, 255, 255, 0.5);
+}
+
+.mobile-margin {
+  marginRight: auto;
+  marginLeft: auto;
 }

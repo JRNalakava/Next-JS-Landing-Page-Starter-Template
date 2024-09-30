@@ -38,4 +38,24 @@ export const theme = {
     },
   },
 };
-export const plugins = [nextui()];
+export const plugins = [nextui({
+  themes:{
+    dark:{
+      primary: {
+        DEFAULT: '#1F0015', // purple
+        foreground: "#1F0015",
+      },
+      golden: {
+        100: '#EFD6AE', // golden
+      },
+    },
+    light:{
+      primary: {
+        DEFAULT: '#1F0015', // purple
+        foreground: "#1F0015",
+      },
+      golden: {
+        100: '#EFD6AE', // golden
+      },
+    }
+  },})];

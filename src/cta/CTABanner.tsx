@@ -14,7 +14,7 @@ const CTABanner = (props: ICTABannerProps) => (
       <div className="text-golden-100">{props.subtitle}</div>
     </div>
 
-    <div className="whitespace-no-wrap mt-3 sm:ml-2 sm:mt-0">
+    <div className="btn-golden whitespace-no-wrap mt-3 sm:ml-2 sm:mt-0">
       {props.button}
     </div>
   </div>
