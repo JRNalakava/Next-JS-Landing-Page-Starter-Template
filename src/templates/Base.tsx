@@ -8,6 +8,7 @@ import { Footer } from './Footer';
 import { Hero } from './Hero';
 import { Pictures } from './Pictures';
 import { VerticalFeatures } from './VerticalFeatures';
+import ContactUsBanner from './ContactUsBanner';
 
 const Base = () => (
   <div className="margin-mobile text-golden-100 antialiased">
@@ -16,7 +17,7 @@ const Base = () => (
       <Hero />
       <Pictures />
       <VerticalFeatures />
-      <Banner />
+      <ContactUsBanner />
       <Footer />
     </Background>
   </div>

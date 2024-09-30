@@ -4,13 +4,15 @@
 
 @tailwind utilities;
 
-.filter-golden {
+/* .filter-golden {
   filter: invert(91%) sepia(14%) saturate(810%) hue-rotate(334deg) brightness(99%) contrast(89%);
-}
+} */
 .btn-golden{
+  margin: 20px;
+  color: #1F0015;
   background-color: #EFD6AE;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 30px;
   border-radius: 100px;
   cursor: pointer;
   font-size: auto;

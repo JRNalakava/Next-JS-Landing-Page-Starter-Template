@@ -41,24 +41,8 @@ export const theme = {
 export const plugins = [
   nextui({
     themes: {
-      dark: {
-        primary: {
-          DEFAULT: '#1F0015', // purple
-          foreground: '#1F0015',
-        },
-        golden: {
-          100: '#EFD6AE', // golden
-        },
-      },
-      light: {
-        primary: {
-          DEFAULT: '#1F0015', // purple
-          foreground: '#1F0015',
-        },
-        golden: {
-          100: '#EFD6AE', // golden
-        },
-      },
+      dark: { colors: { primary: '#EFD6AE' } },
+      light: { colors: { primary: '#EFD6AE' } },
     },
   }),
 ];
