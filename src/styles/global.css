@@ -19,6 +19,17 @@
   font-weight: 500;
   transition: all 0.3s ease;
 }
+.btn-golden-no-margin{
+  color: #1F0015;
+  background-color: #EFD6AE;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: auto;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
 .center {
   display: flex;
   justify-content: center;

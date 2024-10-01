@@ -1,5 +1,6 @@
 import className from 'classnames';
 import { useRouter } from 'next/router';
+import React from 'react';
 
 type IVerticalFeatureRowProps = {
   title: string;
@@ -7,6 +8,7 @@ type IVerticalFeatureRowProps = {
   image: string;
   imageAlt: string;
   reverse?: boolean;
+  id?: string;
 };
 
 const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
@@ -23,7 +25,7 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
   const router = useRouter();
 
   return (
-    <div className={verticalFeatureClass}>
+    <div id={props.id} className={verticalFeatureClass}>
       <div className="w-full text-center sm:w-1/2 sm:px-6">
         <h3 className="text-3xl font-semibold text-golden-100">
           {props.title}

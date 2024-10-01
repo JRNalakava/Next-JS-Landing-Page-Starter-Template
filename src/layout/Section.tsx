@@ -1,14 +1,17 @@
 import type { ReactNode } from 'react';
+import React from 'react';
 
 type ISectionProps = {
   title?: string;
   description?: string;
   yPadding?: string;
+  id?: string;
   children: ReactNode;
 };
 
 const Section = (props: ISectionProps) => (
   <div
+    id={props.id}
     // This says max-w-full so that navbar is stretched across website
     className={`mx-auto max-w-full px-0 ${
       props.yPadding ? props.yPadding : 'py-16'

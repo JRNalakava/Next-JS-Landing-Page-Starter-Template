@@ -32,10 +32,10 @@ export default async function handler(
 
   try {
     const emailRes = await client.messages.create(DOMAIN, messageData);
-    console.log(emailRes);
+    //console.log(emailRes);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (err: any) {
-    console.error('Error sending email', err);
+    //console.error('Error sending email', err);
   }
 
   res.status(200).json({ submitted: true });

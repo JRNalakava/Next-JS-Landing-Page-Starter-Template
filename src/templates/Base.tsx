@@ -1,3 +1,4 @@
+import { Spacer } from '@nextui-org/react';
 import React from 'react';
 
 import { Background } from '../background/Background';
@@ -14,7 +15,9 @@ const Base = () => (
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Background color="bg-primary-100 margin-mobile">
       <Hero />
+      <Spacer y={10} />
       <Pictures />
+      <Spacer y={5} />
       <VerticalFeatures />
       <ContactUsBanner />
       <Footer />

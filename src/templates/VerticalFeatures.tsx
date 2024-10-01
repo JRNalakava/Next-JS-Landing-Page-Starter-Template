@@ -9,10 +9,12 @@ import { Section } from '../layout/Section';
 const VerticalFeatures = () => (
   <Background color="bg-primary-100">
     <Section
+      id="releases"
       title="Latest Release"
       description="Here you can find our latest release."
     >
       <VerticalFeatureRow
+        id="history"
         title="Our History"
         description={`
           Olhar, an Austin-based Shoegaze and Noise Rock project,

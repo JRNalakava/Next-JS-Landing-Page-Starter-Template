@@ -1,3 +1,4 @@
+import { Button } from '@nextui-org/react';
 import Link from 'next/link';
 import React from 'react';
 
@@ -63,15 +64,15 @@ const Footer = () => (
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/">About</Link>
+          <Link href="#history">About</Link>
         </li>
         <li>
-          <Link href="/">Releases</Link>
+          <Link href="#releases">Releases</Link>
         </li>
         <li>
-          <button className="btn-primary">
+          <Button className="btn-golden-no-margin">
             <ContactModal />
-          </button>
+          </Button>
         </li>
       </CenteredFooter>
     </Section>
