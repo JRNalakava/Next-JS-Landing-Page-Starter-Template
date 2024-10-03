@@ -5,6 +5,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 const API_KEY = process.env.MAILGUN_API_KEY || '';
 const DOMAIN = process.env.MAILGUN_DOMAIN || '';
 
+
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse,
